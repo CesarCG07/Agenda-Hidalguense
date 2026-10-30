@@ -1,0 +1,13 @@
+{
+  "puerto": 3000,
+  "acceso": "solo-esta-computadora",
+  "pin": "",
+  "portal_pacientes": true,
+  "dias_atencion": [3, 4, 5],
+  "dias_anticipacion_max": 60,
+  "servicios": [
+    { "id": "mast",   "nombre": "Mastografía",        "cupos": 10, "minutos": 25, "inicio": "08:30" },
+    { "id": "dens",   "nombre": "Densitometría",      "cupos": 8,  "minutos": 30, "inicio": "08:30" },
+    { "id": "orient", "nombre": "Orientación médica", "cupos": 6,  "minutos": 30, "inicio": "08:30" }
+  ]
+}

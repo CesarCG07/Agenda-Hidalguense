@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Citas Fundación Hidalguense</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="top"><div class="wrap bar">
+    <div class="brand"><span class="mark" aria-hidden="true"></span><div><b>Fundación Hidalguense</b><small>Citas de mastografía y servicios de atención</small></div></div>
+    <nav class="tabs" aria-label="Secciones">
+      <a class="tab" href="#agendar" data-tab="agendar">Agendar cita</a>
+      <a class="tab" href="#mi-cita" data-tab="mi-cita">Mi cita</a>
+    </nav>
+  </div></header>
+  <main class="wrap" id="app"><p class="note">Cargando…</p></main>
+  <div class="toast" id="toast" hidden role="status"></div>
+  <noscript><p style="padding:16px">Activa JavaScript en tu navegador para agendar tu cita.</p></noscript>
+  <script src="paciente.js"></script>
+</body>
+</html>

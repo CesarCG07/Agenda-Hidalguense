@@ -1,0 +1,20 @@
+# Datos reales de pacientes: NUNCA subir
+local/datos/
+local/exportar-web.sql
+*.db
+*.db-shm
+*.db-wal
+*.csv
+
+# Secretos
+.env
+.env.local
+
+# Dependencias y compilados
+node_modules/
+.next/
+out/
+
+# Sistema
+.DS_Store
+Thumbs.db

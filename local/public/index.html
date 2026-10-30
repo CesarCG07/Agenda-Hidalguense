@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agenda Hidalguense</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="top"><div class="wrap bar">
+    <div class="brand"><span class="mark" aria-hidden="true"></span><div><b>Agenda Hidalguense</b><small>Citas de mastografía y servicios de atención</small></div></div>
+    <nav class="tabs" aria-label="Secciones">
+      <a class="tab" href="#agendar" data-tab="agendar">Agendar cita</a>
+      <a class="tab" href="#panel" data-tab="panel">Panel de control</a>
+      <a class="tab" href="/paciente" target="_blank" rel="noopener" id="pac-link" title="Abre la vista que ven las pacientes">Vista de paciente ↗</a>
+    </nav>
+  </div></header>
+  <main class="wrap" id="app"><p class="note">Cargando…</p></main>
+  <div class="toast" id="toast" hidden role="status"></div>
+  <noscript><p style="padding:16px">Activa JavaScript en tu navegador para usar la agenda.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>
